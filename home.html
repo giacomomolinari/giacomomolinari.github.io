@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Giacomo Molinari</title>
+  </head>
+
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="#">Giacomo Molinari</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<ul class="navbar-nav mr-auto">
+	  <li class="nav-item" onmouseover="linkOver(this)" onmouseout="linkOut(this)" onclick="activate('sectionAbout')"><a class="nav-link" href="#sectionAbout" >About</a></li> 
+	  <li class="nav-item" onmouseover="linkOver(this)" onmouseout="linkOut(this)" onclick="activate('sectionPublications')"><a class="nav-link" href="#sectionPublications">Research</a></li>
+	  <li class="nav-item" onmouseover="linkOver(this)" onmouseout="linkOut(this)" onclick="activate('sectionTeaching')"><a class="nav-link" href="#sectionContact">Teaching</a></li>
+	  <li class="nav-item" onmouseover="linkOver(this)" onmouseout="linkOut(this)" onclick="activate('sectionContact')"><a class="nav-link" href="#sectionContact">Contact</a></li>    
+	</ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid px-0">
+      <div id="sectionAbout" class="no-gutters active">
+	<div class="media">
+	  <!--  <div class="media-left media-top">
+		<img src="profilePic2SquareSmallest.jpg" class="media-object" id="ProfilePic" alt="avatar">
+	  </div> -->
+	  <div class="media-body">
+	    <h1> About me </h1>
+	    <div id='container'>
+	      <div class="left">
+		<img src='ProfilePicAlt.jpg' alt="" />
+	      </div>
+	      <div class="right">
+		<p>  I am a PhD student in the <a href="http://www.bristol.ac.uk/philosophy/">department of Philosophy</a> at
+		  the <a href="https://www.bristol.ac.uk/"> University of Bristol </a>, under the supervision of 
+		  <a href="https://jason-konek.squarespace.com/">Dr. Jason Konek</a>. My research is part of an ERC-funded
+		  <a href="https://jason-konek.squarespace.com/erc-project">project</a> whose aim is to provide an
+		  accuracy-centered foundation for imprecise probability. Before starting my PhD, I completed a MA in
+		  Philosophy and History of Science at the University of Bristol and a BSc in Computer Science
+		  <i>(Laurea in Informatica)</i> from the <a href="https://www.unibo.it/it">University of Bologna</a>.</p>
+		<p> My main interest is in Epistemology, where I investigate how formal theories can be used to address
+		  philosophical questions about rationality, and at the same time, how philosophical arguments
+		  can be employed to justify the foundations of these formal theories. I am particularly interested in
+		  the foundations of imprecise probability theory and in its applications in epistemology.
+		</p>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+      </div>
+	
+      <div id="sectionPublications"  class="no-gutters">
+	<div class="media">
+	  <div class="media-body">
+	    <h1> Research </h1>
+	    <h2> Published work </h2>
+	    <div id='container'>
+	      <div class="left">
+		<img src='DeerFranzMarc.jpg' alt="" />
+	      </div>
+	      <div class="right">
+		<h4>Towards the inevitability of nonclassical probability</h4>
+		<p> I extend Lindley's (1982) argument for probabilism to a number of non-classical logical settings
+		  whose truth-values are in the set {0, 1}, and where logical consequence ⊨ is given the “no-drop”
+		  characterization. I show that an agent’s credence can only avoid accuracy-domination
+		  in these settings if its canonical transform is a non-classical probability function. Therefore, if
+		  an agent values accuracy as the fundamental epistemic virtue, rationality requires her credence to
+		  have some probabilistic structure. Then I show that, for a certain class of reasonable measures of
+		  inaccuracy, having such a probabilistic structure is sufficient to avoid accuracy-domination. [<a href="https://www.cambridge.org/core/journals/review-of-symbolic-logic/article/abs/towards-the-inevitability-of-nonclassical-probability/FBB20E26E4AD4A0C23EE87BED355379B">LINK</a>] </p>
+	      </div>
+	    </div>
+	    <h2> Work in Progress </h2>
+	    <div id='container'>
+	      <div class="left">
+		<img src='FranzMarcFoxCropped.jpg' alt="" />
+	      </div>
+	      <div class="right">
+		<h4>Coherence: an ideal norm for non-ideal agents </h4>
+		<p> We say that your credences are coherent when they respect the laws of probability. Many epistemologists
+		  argue that coherence has the status of a rationality norm. A rational agent, they claim,
+		  ought to be coherent. </p>
+		<p> The coherence norm has been criticised for being excessively idealised. For example, if
+		  an agent has a credence towards a logically true statement, the laws of probability require
+		  them to have maximal confidence in its truth, no matter how complex the statement.
+		  Clearly, this goes well beyond the ability of any human reasoner. And if coherence is
+		  a norm we can’t respect, why should we care about it? My aim is to
+		  respond to this objection against the coherence norm. I show that, even if you can’t
+		  be coherent, you should try to approximate coherence as best you can. To build such a
+		  response, I introduce a notion of approximate coherence, defining it in terms of accuracy,
+		  and then show that this notion has normative bite, i.e. that non-ideal agents ought to approximate coherence.[<a href="./incoherenceDraft.pdf" target="blank">DRAFT</a>]
+		</p>
+	      </div>
+	    </div>
+	    <div id='container'>
+	      <div class="left">
+		<img src='FranzMarcBlueHorsesCropped.jpg' alt="" />
+	      </div>
+	      <div class="right">
+		<h4>Imprecision and the representation of belief</h4>
+		<p> This essay is about the way three characters respond to a formal result connecting categorical
+		  (i.e. all-or-nothing) beliefs and precise credences. This result was outlined by Fitelson
+		  and Easwaran (2015, 2016) as a response to the preface paradox, but has broader implications.
+		  Each character interprets the result from a different philosophical perspective,
+		  and uses it for a different purpose. I present a similar result connecting beliefs and imprecise
+		  credences, and then evaluate how it affects the views of each character. For at least some of their
+		  views, I argue, the imprecise result is a significant improvement. [<a href="./beliefRepDraft.pdf" target="blank">DRAFT</a>]
+		</p>
+		<ul>
+		  <li>Presented at Formal Epistemology Workshop 2022 </li> 
+		</ul> 
+	      </div>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+      <div id="sectionTeaching"  class="no-gutters">
+	<div class="media">
+	  <div class="media-body">
+	    <h1> Teaching </h1>
+
+	    <h3> Year 2022/2023 </h3>
+	    <ul>
+	      <li>Introduction to Philosophy A - Metaphysics and Epistemology</li>
+	    </ul>
+
+	    <h3> Year 2021/2022 </h3>
+	     <ul>
+	      <li> Introduction to Formal Logic (Teaching assistant) </li>
+	      <li> Logic and Critical Thinking (Teaching assistant)  </li>
+	    </ul>
+	  </div>
+	</div>
+      </div>
+      
+      <div id="sectionContact"  class="no-gutters">
+	<div class="media">
+	  <div class="media-body">
+	    <h1> Contact </h1>
+	    <p> <b>Email:</b> giacomo[dot]molinari[at]bristol[dot]ac[dot]uk </p>
+	  </div>
+	</div>
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="myScript.js"></script>
+
+    <footer>
+      <p>Giacomo Molinari</p>
+    </footer> 
+  </body>
+</html>

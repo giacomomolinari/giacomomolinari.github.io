@@ -1,0 +1,264 @@
+#sectionAbout img{
+    margin-right: 2vw;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#sectionAbout img{
+    width: 20vw;
+}
+
+@media (max-width: 800px) {
+    #sectionAbout img {
+	width: 40vw;
+	margin-left: 20px;
+    }
+}
+
+.navbar {
+    background-color: white;
+    padding: 0px;
+    height:56px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.navbar .navbar-brand{
+    margin-left: 10px;
+    margin-bottom: 5px;
+    background-color: white;
+    font-size: 26px;
+    color: black;
+    font-family: Open Sans;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-item{
+    background-color: white;
+    left-padding: 20px;
+    right-padding: 20px;
+    line-height: 40px;
+    webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-nav .nav-item a{
+    font-size: 20px;
+    color: white;
+    font-family: Open Sans;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+}
+
+
+.media{
+    padding-top: 30px;
+    padding-left: 2vw;
+    padding-right: 8vw;
+    padding-bottom: 30px;
+}
+
+
+
+/*Hide main divs and show active ones so that I can display them on sidebar clicks*/
+.no-gutters{
+    display: none;
+    min-height: 100vh;
+}
+
+.active{
+    display: block;
+}
+
+/* ABOUT SECTION */
+
+#sectionAbout .media{
+    padding-top: 80px;
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+#sectionAbout{
+    background-color: #FFFAFA;
+}
+
+#sectionAbout h1{
+    font-family: Open Sans;
+    font-style: normal;
+    color: #2F4F4F;
+    padding-bottom: 20px;
+}
+
+#sectionAbout p{
+    color: 2F4F4F;
+    font-family: Open Sans;
+    font-style: normal;
+}
+
+#sectionAbout a{
+    color: #DAA520;
+}
+
+/* PUBLICATIONS SECTION */
+
+#sectionPublications{
+    background-color: #FFFAFA;
+}
+
+#sectionPublications h1{
+    color: #2F4F4F;
+    font-family: Open Sans;
+    font-style: normal;
+}
+
+#sectionPublications h2{
+    padding-top: 20px;
+    color: #2F4F4F;
+    font-family: Open Sans;
+    font-style: normal;
+}
+
+#sectionPublications h4{
+    margin-top: 15px;
+    color: #2F4F4F;
+}
+#sectionPublications .media{
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+#sectionPublications a{
+    color: #DAA520;
+}
+
+#sectionPublications img{
+    margin-top: 15px;
+    width: 22vw;
+}
+
+@media (max-width: 800px) {
+    #sectionPublications img {
+	width: 60vw;
+	margin-left: 20px;
+    }
+}
+
+#sectionPublications p{
+    color: #2F4F4F;
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: medium;
+}
+
+#sectionPublications li{
+    color: #2F4F4F;
+    font-family: Open Sans;
+    font-style: normal;
+    font-size: medium;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 800px) {
+    #container {
+	flex-direction: column;
+    }
+  }
+
+.right{
+    margin-left: 20px;
+    display: flex;
+    flex-wrap: wrap;}
+
+/* TEACHING SECTION */
+
+#sectionTeaching .media{
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+
+#sectionTeaching img{
+    opacity: 0;
+}
+
+#sectionTeaching h1{
+    color: #2F4F4F;
+    font-family: Open Sans;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+#sectionTeaching h3{
+    color: #2F4F4F;
+    font-family: Open Sans;
+    font-style: normal;
+}
+
+#sectionTeaching{
+    background-color: #FFFAFA;
+}
+
+#sectionTeaching p{
+    color: #2F4F4F;
+    font-family: Open Sans;
+    font-style: normal;
+}
+
+#sectionTeaching li{
+    color: #2F4F4F;
+    font-family: Open Sans;
+    font-style: normal;
+}
+
+/* CONTACT SECTION */
+
+#sectionContact .media{
+    padding-top: 80px;
+    padding-left: 40px;
+}
+
+
+#sectionContact img{
+    opacity: 0;
+}
+
+#sectionContact h1{
+    color: #2F4F4F;
+    font-family: Open Sans;
+    font-style: normal;
+    padding-bottom: 20px;
+}
+
+#sectionContact{
+    background-color: #FFFAFA;
+}
+
+#sectionContact p{
+    color: #2F4F4F;
+    font-family: Open Sans;
+    font-style: normal;
+}
+
+    
+.media p{
+    font-size:calc(12px + 0.6vw);
+    font-family: Open Sans;
+    font-style: normal;
+
+}
+
+.media li{
+    font-size:calc(12px + 0.6vw);
+    font-family: Open Sans;
+    font-style: normal;
+
+}
