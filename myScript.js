@@ -17,3 +17,7 @@ function activate(sectionName){
     divID.classList.add('active');
     divID.style.display = 'block';
 }
+
+$('.nav-link').click(function(){
+  $('.navbar-toggler').click();
+});
