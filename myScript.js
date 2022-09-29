@@ -1,4 +1,6 @@
-
+$('.nav-link').click(function(){
+  $('.navbar-toggler').click();
+});
 
 function linkOver(el){
     el.style.backgroundColor = "#f5f2f5";
