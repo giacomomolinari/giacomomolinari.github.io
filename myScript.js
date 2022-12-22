@@ -1,4 +1,6 @@
-
+$('.nav-link').click(function(){
+  document.getElementById('navbarSupportedContent').classList.remove('show');
+});
 
 function linkOver(el){
     el.style.backgroundColor = "#f5f2f5";
@@ -17,7 +19,3 @@ function activate(sectionName){
     divID.classList.add('active');
     divID.style.display = 'block';
 }
-
-$('.nav-link').click(function(){
-  $('.navbar-toggler').click();
-});
