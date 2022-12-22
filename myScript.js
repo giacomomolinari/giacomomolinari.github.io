@@ -1,5 +1,5 @@
 $('.nav-link').click(function(){
-  $('.navbar-toggler').click();
+  document.getElementById('navbarSupportedContent').classList.remove('show');
 });
 
 function linkOver(el){
