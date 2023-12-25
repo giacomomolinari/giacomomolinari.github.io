@@ -58,9 +58,10 @@
 
 .media{
     padding-top: 30px;
-    padding-left: 2vw;
+    padding-left: 4vw;
     padding-right: 8vw;
     padding-bottom: 30px;
+    max-width: 1800px;
 }
 
 
@@ -79,8 +80,6 @@
 
 #sectionAbout .media{
     padding-top: 80px;
-    padding-top: 80px;
-    padding-left: 40px;
 }
 
 #sectionAbout{
@@ -129,7 +128,6 @@
 }
 #sectionPublications .media{
     padding-top: 80px;
-    padding-left: 40px;
 }
 
 #sectionPublications a{
@@ -150,16 +148,15 @@
 
 #sectionPublications p{
     color: #2F4F4F;
+    font-size:calc(12px + 0.4vw);
     font-family: Open Sans;
-    font-style: normal;
-    font-size: medium;
-}
+    font-style: normal;}
 
 #sectionPublications li{
     color: #2F4F4F;
+    font-size:calc(12px + 0.4vw);
     font-family: Open Sans;
     font-style: normal;
-    font-size: medium;
 }
 
 #container {
@@ -176,13 +173,17 @@
 .right{
     margin-left: 20px;
     display: flex;
-    flex-wrap: wrap;}
+    flex-wrap: wrap;
+    margin-top: 0px;
+    align-content: flex-start;  /*Avoids huge spaces between paragraphs/headlines on large screens*/
+}
+
+
 
 /* TEACHING SECTION */
 
 #sectionTeaching .media{
     padding-top: 80px;
-    padding-left: 40px;
 }
 
 
@@ -223,7 +224,6 @@
 
 #sectionContact .media{
     padding-top: 80px;
-    padding-left: 40px;
 }
 
 
